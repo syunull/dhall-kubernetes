@@ -1,12 +1,12 @@
 let Prelude =
       ../Prelude.dhall
-        sha256:10db3c919c25e9046833df897a8ffe2701dc390fa0893d958c3430524be5a43e
+        sha256:931cbfae9d746c4611b07633ab1e547637ab4ba138b16bf65ef1b9ad66a60b7f
 
 let map = Prelude.List.map
 
 let kubernetes =
       ../package.dhall
-        sha256:263ee915ef545f2d771fdcd5cfa4fbb7f62772a861b5c197f998e5b71219112c
+        sha256:1a0d599eabb9dd154957edc59bb8766ea59b4a245ae45bdd55450654c12814b0
 
 let Service = { name : Text, host : Text, version : Text }
 

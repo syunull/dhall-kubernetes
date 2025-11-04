@@ -26,6 +26,7 @@ spec:
           ports:
             - containerPort: 80
           resources:
+            claims: []
             limits:
               cpu: "500m"
             requests:
